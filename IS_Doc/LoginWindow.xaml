@@ -1,0 +1,13 @@
+﻿<Window x:Class="IS_Doc.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ИКСКП" Height="300" Width="300">
+    <Grid>
+        <Label Content="Имя пользователя" HorizontalAlignment="Left" Margin="50,46,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbLogin" HorizontalAlignment="Left" Height="23" Margin="50,77,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="186"/>
+        <PasswordBox x:Name="pbPassword" HorizontalAlignment="Left" Margin="50,137,0,0" VerticalAlignment="Top" Width="186"/>
+        <Button x:Name="bLogin" Content="Вход" HorizontalAlignment="Left" Margin="82,187,0,0" VerticalAlignment="Top" Width="121" Height="34" Click="bLogin_Click"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" Margin="50,106,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
